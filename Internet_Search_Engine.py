@@ -2,6 +2,7 @@ import requests,webbrowser
 from bs4 import BeautifulSoup
 from tkinter import  *
 from PIL import ImageTk, Image
+import os
 
 structure=Tk() ##Making the container##
 structure.geometry("1920x1080")
@@ -10,7 +11,7 @@ structure.config(background="teal")
 ## The position of the name of engine ##
 # img = ImageTk.PhotoImage(Image.open("Galactic Wolf.png"))
 # label=Label(structure,image=img)
-# label.pack(side=BOTTOM)
+# label.pack(side=TOP)
 label=Label(structure,text="Cosgo Engine",bg='teal',fg="gold",font=("ComicSans",60,"italic"))
 label.pack(side=TOP)
 label.place(x=600,y=350)
